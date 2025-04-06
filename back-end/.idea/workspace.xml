@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c07ae61-67c7-4ebc-93a3-e70b9e820559" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\apache-maven-3.6.3\mvn_repo" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2kpG7DBUMc6QZvTYT80uVUbqiX1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MainAppTests.contextLoads.executor": "Run",
+    "Maven.admin [package].executor": "Run",
+    "Maven.server [package].executor": "Run",
+    "Maven.springboot-init [clean,install].executor": "Run",
+    "Maven.springboot-init [clean].executor": "Run",
+    "Maven.springboot-init [compile].executor": "Run",
+    "Maven.springboot-init [install].executor": "Run",
+    "Maven.springboot-init [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "Spring Boot.ApiApplication.executor": "Run",
+    "Spring Boot.MainApp.executor": "Run",
+    "Spring Boot.WebApplication.executor": "Run",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/javaTest/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "service.view.auto.scroll.to.source": "true",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\郭继业\Desktop\springboot-init (1)\common\src\main\java\com\example\common" />
+      <recent name="E:\郭继业\Desktop\springboot-init\api\src\main\resources" />
+      <recent name="E:\郭继业\Desktop\springboot-init\service\src\main\resources" />
+      <recent name="E:\郭继业\Desktop\springboot-init\api\src\main\java\com\example\api\config" />
+      <recent name="E:\郭继业\Desktop\springboot-init\admin\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.service" />
+      <recent name="com.example.common.handler" />
+      <recent name="com.example.common.config" />
+      <recent name="com.example.api" />
+      <recent name="com.example.admin.task" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebApplication">
+    <configuration name="MainAppTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.server" />
+      <option name="MAIN_CLASS_NAME" value="com.example.server.MainAppTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.admin.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainAppTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6c07ae61-67c7-4ebc-93a3-e70b9e820559" name="更改" comment="" />
+      <created>1723972936883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723972936883</updated>
+      <workItem from="1723972937956" duration="4048000" />
+      <workItem from="1723977816947" duration="2336000" />
+      <workItem from="1723980166017" duration="329000" />
+      <workItem from="1723980502329" duration="397000" />
+      <workItem from="1723980919469" duration="14159000" />
+      <workItem from="1724125973818" duration="8764000" />
+      <workItem from="1724247445347" duration="3858000" />
+      <workItem from="1724317573218" duration="6431000" />
+      <workItem from="1724394345628" duration="126000" />
+      <workItem from="1724418503014" duration="961000" />
+      <workItem from="1724734347801" duration="791000" />
+      <workItem from="1724735152033" duration="94000" />
+      <workItem from="1724851244671" duration="620000" />
+      <workItem from="1724852003221" duration="15000" />
+      <workItem from="1724852989545" duration="37000" />
+      <workItem from="1724853470045" duration="31000" />
+      <workItem from="1742040494703" duration="8916000" />
+      <workItem from="1742119866057" duration="18018000" />
+      <workItem from="1742177350016" duration="11009000" />
+      <workItem from="1742258128861" duration="967000" />
+      <workItem from="1742286346048" duration="114000" />
+      <workItem from="1742286468449" duration="8124000" />
+      <workItem from="1742294846564" duration="1666000" />
+      <workItem from="1742298905620" duration="2169000" />
+      <workItem from="1742303280545" duration="670000" />
+      <workItem from="1742345450878" duration="10788000" />
+      <workItem from="1742606743037" duration="513000" />
+      <workItem from="1742607301924" duration="55000" />
+      <workItem from="1743558422968" duration="81000" />
+      <workItem from="1743582076076" duration="977000" />
+      <workItem from="1743583306866" duration="3344000" />
+      <workItem from="1743641837551" duration="4045000" />
+      <workItem from="1743847763157" duration="4882000" />
+      <workItem from="1743918690374" duration="1193000" />
+      <workItem from="1743951686359" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+back-end/admin/target
+back-end/api/target
+back-end/bean/target
+back-end/common/target
+back-end/security/target
+back-end/service/target
+front-end/node_modules
+front-end/dist
+front-end/.idea
+front-end/.vscode
+front-end/.git
+front-end/.DS_Store
