@@ -1,16 +1,14 @@
 package com.example.admin.controller;
 
+import com.example.common.chat.ChatSession;
+import com.example.common.chat.ChatSessionService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.http.MediaType;
+import org.springframework.ai.chat.client.advisor.AbstractChatMemoryAdvisor;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
-
-import java.time.Duration;
-import java.util.Map;
-import java.util.Random;
 
 @RestController
 @RequestMapping("/admin/chatAI")
@@ -20,36 +18,21 @@ public class ChatAIController {
 
     private final ChatClient chatClient;
 
-    @GetMapping(produces = "text/html;charset=UTF-8")
+    private final ChatSessionService chatSessionService;
+
+    @RequestMapping(produces = "text/html;charset=UTF-8")
     @Operation(summary = "GPT对话(流式输出)")
-    public Flux<String> chat(@RequestParam("prompt") String prompt) {
+    public Flux<String> chat(@RequestParam("prompt") String prompt, String chatId) {
+        // 1. 保存会话id
+        ChatSession session = new ChatSession();
+        session.setSessionId(chatId);
+        session.setSessionName("普通对话");
+        chatSessionService.saveSession(session, "chat");
+        // 2. 请求模型
         return chatClient.prompt()
                 .user(prompt)
+                .advisors(a -> a.param(AbstractChatMemoryAdvisor.CHAT_MEMORY_CONVERSATION_ID_KEY, chatId))
                 .stream()
-                .content()
-                .doOnNext(System.out::println);
-    }
-
-
-
-    @GetMapping(value = "/sensor-stream", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
-    public Flux<Map<String, Double>> getSensorStream() {
-        return Flux.interval(Duration.ofSeconds(1))
-                .map(tick -> Map.of(
-                        "temperature", generateRandomTemperature(),
-                        "humidity", generateRandomHumidity()
-                ))
-                .doOnNext(sensorData -> System.out.println("传感器读数: " + sensorData));
-    }
-
-    private double generateRandomHumidity() {
-        Random random = new Random();
-        return random.nextDouble() * 100; // 生成 0% 到 100% 的湿度
-    }
-
-    // 模拟生成随机温度值（-20°C 到 50°C）
-    private double generateRandomTemperature() {
-        Random random = new Random();
-        return -20 + random.nextDouble() * 70;
+                .content();
     }
 }

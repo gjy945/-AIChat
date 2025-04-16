@@ -1,0 +1,4 @@
+com\example\security\admin\adapter\ResourceServerAdapter.class
+com\example\security\admin\controller\LoginController.class
+com\example\security\admin\model\SysUser.class
+com\example\security\admin\util\SecurityUtils.class
